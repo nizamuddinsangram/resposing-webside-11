@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;0,900;1,700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+} 
+header{
+    background: #FFF4E7;
+}
+
+
+/* header section design */
+.container{
+    display: grid;
+   grid-template-columns: auto;
+   justify-content: center;
+   align-items: center;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin: 50px 0 100px;
+}
+.navbar .logo{
+    /* margin: 50px 0 100px; */
+
+}
+.logo-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    line-height: 53px;
+}
+.nav-icon ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-left: 50px;
+    
+}
+.nav-icon ul li{
+    margin-left: 50px;
+    font-style: normal;
+    font-weight: 500;
+     font-size: 18px;
+}
+.nav-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 529px 50px;
+}
+.nav-section p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.nav-desc-title{
+    font-style: normal;
+   font-weight: 700;
+    font-size: 55px;
+    line-height: 75px;
+    text-align: center;
+}
+
+.nav-desc{
+   
+    
+
+}
+.banner{
+    margin: 0 auto;
+    margin-bottom: 45px;
+}
+/* feactures section start */
+.features{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 85px 310px 130px; */
+
+}
+/* .features-img {
+    width: 342px;
+    height: 342px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 10px 10px;
+} */
+
+
+
+
+
+
+
+
+
+
+/* Another section start now */
+.enjoy-section{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    margin: 120px 240px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Award section starts now */
+
+ .award-list{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 180px;
+ }
+
+
+
+
+/* Sponspors section stars now */
+
+.sponspors-container{
+
+}
+.sponspors-img{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 240px 130px;
+      
+}
+
+
+
+/* footer */
+
+footer{
+    background: #FFF4E7;
+    margin: 0 225px 209px 255px;
+    text-align: center;
+    padding: 30px ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
